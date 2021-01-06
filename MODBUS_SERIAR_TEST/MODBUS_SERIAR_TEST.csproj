@@ -113,5 +113,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <Import Project="..\MODBUS_SERIAR\MODBUS_SERIAR\MODBUS_SERIAR.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
